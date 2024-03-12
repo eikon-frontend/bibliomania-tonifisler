@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bibliomania</title>
+    <link rel="stylesheet" href="scripts/star-rating.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 🦊 Votre page ici -->
+
+    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+    <!-- 
+        <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+        </select>
+    -->
+    <!-- 💡 Script pour gérer le rating d'un livre -->
+    <script src="scripts/star-rating.min.js"></script>
+    <script>
+      var stars = new StarRating(".star-rating", {
+        tooltip: "Choisissez votre note",
+      });
+    </script>
+  </body>
+</html>
