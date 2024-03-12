@@ -2,7 +2,8 @@
 
 ## Projet et consignes
 
-> [!IMPORTANT] > [Voir brief sur Notion](https://eikon-imd.notion.site/Bibliomania-c0b67699bf6447018589b41b5201569f)
+> [!IMPORTANT]
+> [Voir brief sur Notion](https://eikon-imd.notion.site/Bibliomania-c0b67699bf6447018589b41b5201569f)
 
 ## Utilisation du plugin JS - star-rating.js
 
