@@ -2,7 +2,7 @@
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 44px;
+  --gl-star-size: 24px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
   --gl-tooltip-font-weight: 400;
