@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- 🦊 Votre page ici -->
+    <div>Ma page ici</div>
+    <div>Changement</div>
 
     <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
+    <select class="star-rating" aria-label="Note utilisateur">
+      <option value="">Select a rating</option>
+      <option value="5">Excellent</option>
+      <option value="4">Very Good</option>
+      <option value="3">Moyen</option>
+      <option value="2">Poor</option>
+      <option value="1">Terrible</option>
+    </select>
+
     <!-- 💡 Script pour gérer le rating d'un livre -->
     <script src="scripts/star-rating.min.js"></script>
     <script>
       var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
+        tooltip: false,
       });
     </script>
   </body>
